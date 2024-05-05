@@ -2,7 +2,7 @@
   "name": "ts-next-template",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,17 +16,17 @@
   },
   "dependencies": {
     "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.2",
     "@eslint/eslintrc": "^3.0.2",
     "@eslint/js": "^9.2.0",
     "@testing-library/react": "^15.0.6",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^20.12.8",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.6.0",
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
@@ -37,13 +37,13 @@
     "globals": "^15.1.0",
     "jsdom": "^24.0.0",
     "lefthook": "^1.6.10",
-    "typescript": "^5",
+    "typescript": "^5.4.5",
     "typescript-eslint": "^7.8.0",
     "vitest": "^1.6.0"
   },
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=9",
+    "node": ">=20.12.2",
+    "pnpm": ">=9.0.6",
     "npm": "please use pnpm!",
     "yarn": "please use pnpm!"
   }
