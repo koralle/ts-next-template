@@ -2,7 +2,7 @@
   "name": "ts-next-template",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9.3.0",
+  "packageManager": "pnpm@9.6.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,35 +15,35 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "14.2.4",
+    "next": "14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.1",
+    "@biomejs/biome": "^1.8.3",
     "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.5.0",
+    "@eslint/js": "^9.8.0",
     "@testing-library/react": "^16.0.0",
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.14.13",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-testing-library": "^6.2.2",
     "eslint-plugin-vitest": "^0.5.4",
-    "globals": "^15.6.0",
-    "jsdom": "^24.1.0",
-    "lefthook": "^1.6.16",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^7.13.0",
+    "globals": "^15.9.0",
+    "jsdom": "^24.1.1",
+    "lefthook": "^1.7.11",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.18.0",
     "vitest": "^1.6.0"
   },
   "engines": {
-    "node": ">=20.14.0",
-    "pnpm": ">=9.3.0",
+    "node": ">=20.16.0",
+    "pnpm": ">=9.6.0",
     "npm": "please use pnpm!",
     "yarn": "please use pnpm!"
   }
