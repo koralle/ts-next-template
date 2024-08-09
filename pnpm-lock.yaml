@@ -31,8 +31,8 @@ importers:
         specifier: ^16.0.0
         version: 16.0.0(@testing-library/dom@10.1.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
-        specifier: ^20.14.13
-        version: 20.14.13
+        specifier: ^20.14.14
+        version: 20.14.14
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -41,7 +41,7 @@ importers:
         version: 18.3.0
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
-        version: 3.7.0(@swc/helpers@0.5.5)(vite@5.2.11(@types/node@20.14.13))
+        version: 3.7.0(@swc/helpers@0.5.5)(vite@5.2.11(@types/node@20.14.14))
       concurrently:
         specifier: ^8.2.2
         version: 8.2.2
@@ -59,7 +59,7 @@ importers:
         version: 6.2.2(eslint@8.57.0)(typescript@5.5.4)
       eslint-plugin-vitest:
         specifier: ^0.5.4
-        version: 0.5.4(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.13)(jsdom@24.1.1))
+        version: 0.5.4(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.14)(jsdom@24.1.1))
       globals:
         specifier: ^15.9.0
         version: 15.9.0
@@ -67,8 +67,8 @@ importers:
         specifier: ^24.1.1
         version: 24.1.1
       lefthook:
-        specifier: ^1.7.11
-        version: 1.7.11
+        specifier: ^1.7.12
+        version: 1.7.12
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
@@ -77,7 +77,7 @@ importers:
         version: 7.18.0(eslint@8.57.0)(typescript@5.5.4)
       vitest:
         specifier: ^2.0.5
-        version: 2.0.5(@types/node@20.14.13)(jsdom@24.1.1)
+        version: 2.0.5(@types/node@20.14.14)(jsdom@24.1.1)
 
 packages:
 
@@ -604,8 +604,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@20.14.13':
-    resolution: {integrity: sha512-+bHoGiZb8UiQ0+WEtmph2IWQCjIqg8MDZMAV+ppRRhUZnquF5mQkP/9vpSwJClEiSM/C7fZZExPzfU0vJTyp8w==}
+  '@types/node@20.14.14':
+    resolution: {integrity: sha512-d64f00982fS9YoOgJkAMolK7MN8Iq3TDdVjchbYHdEmjth/DHowx82GnoA+tVUAN+7vxfYUgAzi+JXbKNd2SDQ==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1496,48 +1496,48 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  lefthook-darwin-arm64@1.7.11:
-    resolution: {integrity: sha512-JQtGTM2uZF/3MGKmqb3jg8KG0B/V+2IU+H2jLvRtJULjHQxgiAQGsCJZKCYr8Uvq2/sbjaa+YdiKHROlqt7O6w==}
+  lefthook-darwin-arm64@1.7.12:
+    resolution: {integrity: sha512-CjbV968FMFJWBe/5UA4H3DiKH5TFCh0449pfr9NTt14r05FIg6YzLf5h97CYlDz3b0Bx8Iz8ZqoguE1dFrYpsg==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.7.11:
-    resolution: {integrity: sha512-sfHzHklBh/xEiRGbCkIWZfkyf6gxg4nSryKuA7M6VgwooauXYN+0aXxNbK4CjXBPSMhSCSHh6uHXsqXWaVrTCQ==}
+  lefthook-darwin-x64@1.7.12:
+    resolution: {integrity: sha512-EEwh5zU65MwfwkGOpBW7rd0Ldg7Ef17VoFUQ/pr408acLq7BvNOrrFga/RNUvB5Hsaa7eNjBbv0AG02qE3X/ZA==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.7.11:
-    resolution: {integrity: sha512-UsEHI2xB0c+k3DfTNhl9STBuxZMkgMCUdOS2r6OkVoUY5Uf1PVUH+OTq7dvSAnsueSl6r+3xyCBz2tn48uVwbA==}
+  lefthook-freebsd-arm64@1.7.12:
+    resolution: {integrity: sha512-BznKfuFw9lWhqJFrI+ci2EyS5vvfEWTcsISTq0o4a/kR058stK/6B+i+XnTHrHsiOjQbLJ42wcFgvUEFmio6yw==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.7.11:
-    resolution: {integrity: sha512-WJznUCrP8kb0nlxWvlvfWJm/SAW0TOJOv2VFeFLInYM1ylFVUVeV2fEvEHOjGIKyt96+uAnbiHOkqIYbhfc03g==}
+  lefthook-freebsd-x64@1.7.12:
+    resolution: {integrity: sha512-9+I0xakvqpAIxhPb5ON6a5v/Iyl+gahJi+ogoEDNqlg3zj4otZspOvdiAsLWBAaXI+yFQftOHBM8940Ki5RB0A==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.7.11:
-    resolution: {integrity: sha512-4S+Gdr5jWmwrfHGokcuRQm/A92KLRwYotBgOMwf0etQa4n9B6FGXEi59IOuFNHeZXY4DpxA9A8AvplVdN5KSOA==}
+  lefthook-linux-arm64@1.7.12:
+    resolution: {integrity: sha512-FC+4cyz2CUBVL4BnDwnAzQPdBHM80O2TM53qoT1R3sn9LbWwcpnwdXi86NhVD0I7+vKg6rGUKgOQMTZfSe+sDg==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.7.11:
-    resolution: {integrity: sha512-3CwNNpRa1fHlymgtxjHQ0BqYMvvj3WXvX4eq1BT+w5NF7h5ZjVaK+nilpgEWUUTQyF66FLai+CGx6wfKvcPOag==}
+  lefthook-linux-x64@1.7.12:
+    resolution: {integrity: sha512-BH9peuKjx2ikOxjnohdAH4ocRfC2NZQTXrJXsAdPOFja1iNHzBwpZe+/x+g8fO8a3WVrmBWad3814Hb/oGCICA==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-windows-arm64@1.7.11:
-    resolution: {integrity: sha512-DfLVQ4F1iQcudTDnX/Ru1WNSN2OBPrHwwcWVVdQ/KDYWSru6dd4f18M7g98TZ2X9nYHA5IWrX8w2DaBR6P0/bw==}
+  lefthook-windows-arm64@1.7.12:
+    resolution: {integrity: sha512-GlCNSpXAiBcCQ8jtcFGxkxGzqnsPzGWbx9HTYO7Xz1QjW56de311rdntyVIRl48nQ+Q76fVyEKAtsyQczvRN6w==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.7.11:
-    resolution: {integrity: sha512-xAZP4tQr/6YKbKKvp0qMf6UnToXxo9RulzpKq+v5SiGWE5rz3G12XpyaNVslfrb1N30Yp8wUdZdlXBqhUvltYw==}
+  lefthook-windows-x64@1.7.12:
+    resolution: {integrity: sha512-9GeeQVUX7R8irJ5mf0Zzxn74ZTpy1LHqIGPRAmn9ELtkVdne/DGpCcGyKGVoJFbMInEaeDHGOnVjeQ9kgWB8Fw==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.7.11:
-    resolution: {integrity: sha512-IJ9KSk3+dkjTmKEsH2XJC4elocdgXzIznAHfbgr+5N/dJoB3fj8xNWfNx5fDhjT6so4eCJgdOrF9NJ7cS4wRvw==}
+  lefthook@1.7.12:
+    resolution: {integrity: sha512-kZQQAeL4JZbsADqzK5YMP7M0aadGVDha7oo+4exA5FeQbgpmnDq+ejbkdfLOdo9uy7FSY82akmbxAiXq+V4fbg==}
     hasBin: true
 
   levn@0.4.1:
@@ -2605,7 +2605,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@20.14.13':
+  '@types/node@20.14.14':
     dependencies:
       undici-types: 5.26.5
 
@@ -2787,10 +2787,10 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react-swc@3.7.0(@swc/helpers@0.5.5)(vite@5.2.11(@types/node@20.14.13))':
+  '@vitejs/plugin-react-swc@3.7.0(@swc/helpers@0.5.5)(vite@5.2.11(@types/node@20.14.14))':
     dependencies:
       '@swc/core': 1.5.29(@swc/helpers@0.5.5)
-      vite: 5.2.11(@types/node@20.14.13)
+      vite: 5.2.11(@types/node@20.14.14)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -3267,12 +3267,12 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-vitest@0.5.4(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.13)(jsdom@24.1.1)):
+  eslint-plugin-vitest@0.5.4(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.14)(jsdom@24.1.1)):
     dependencies:
       '@typescript-eslint/utils': 7.8.0(eslint@8.57.0)(typescript@5.5.4)
       eslint: 8.57.0
     optionalDependencies:
-      vitest: 2.0.5(@types/node@20.14.13)(jsdom@24.1.1)
+      vitest: 2.0.5(@types/node@20.14.14)(jsdom@24.1.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3737,40 +3737,40 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  lefthook-darwin-arm64@1.7.11:
+  lefthook-darwin-arm64@1.7.12:
     optional: true
 
-  lefthook-darwin-x64@1.7.11:
+  lefthook-darwin-x64@1.7.12:
     optional: true
 
-  lefthook-freebsd-arm64@1.7.11:
+  lefthook-freebsd-arm64@1.7.12:
     optional: true
 
-  lefthook-freebsd-x64@1.7.11:
+  lefthook-freebsd-x64@1.7.12:
     optional: true
 
-  lefthook-linux-arm64@1.7.11:
+  lefthook-linux-arm64@1.7.12:
     optional: true
 
-  lefthook-linux-x64@1.7.11:
+  lefthook-linux-x64@1.7.12:
     optional: true
 
-  lefthook-windows-arm64@1.7.11:
+  lefthook-windows-arm64@1.7.12:
     optional: true
 
-  lefthook-windows-x64@1.7.11:
+  lefthook-windows-x64@1.7.12:
     optional: true
 
-  lefthook@1.7.11:
+  lefthook@1.7.12:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.7.11
-      lefthook-darwin-x64: 1.7.11
-      lefthook-freebsd-arm64: 1.7.11
-      lefthook-freebsd-x64: 1.7.11
-      lefthook-linux-arm64: 1.7.11
-      lefthook-linux-x64: 1.7.11
-      lefthook-windows-arm64: 1.7.11
-      lefthook-windows-x64: 1.7.11
+      lefthook-darwin-arm64: 1.7.12
+      lefthook-darwin-x64: 1.7.12
+      lefthook-freebsd-arm64: 1.7.12
+      lefthook-freebsd-x64: 1.7.12
+      lefthook-linux-arm64: 1.7.12
+      lefthook-linux-x64: 1.7.12
+      lefthook-windows-arm64: 1.7.12
+      lefthook-windows-x64: 1.7.12
 
   levn@0.4.1:
     dependencies:
@@ -4332,13 +4332,13 @@ snapshots:
       querystringify: 2.2.0
       requires-port: 1.0.0
 
-  vite-node@2.0.5(@types/node@20.14.13):
+  vite-node@2.0.5(@types/node@20.14.14):
     dependencies:
       cac: 6.7.14
       debug: 4.3.6
       pathe: 1.1.2
       tinyrainbow: 1.2.0
-      vite: 5.2.11(@types/node@20.14.13)
+      vite: 5.2.11(@types/node@20.14.14)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4349,16 +4349,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.2.11(@types/node@20.14.13):
+  vite@5.2.11(@types/node@20.14.14):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.14.13
+      '@types/node': 20.14.14
       fsevents: 2.3.3
 
-  vitest@2.0.5(@types/node@20.14.13)(jsdom@24.1.1):
+  vitest@2.0.5(@types/node@20.14.14)(jsdom@24.1.1):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@vitest/expect': 2.0.5
@@ -4376,11 +4376,11 @@ snapshots:
       tinybench: 2.8.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.2.11(@types/node@20.14.13)
-      vite-node: 2.0.5(@types/node@20.14.13)
+      vite: 5.2.11(@types/node@20.14.14)
+      vite-node: 2.0.5(@types/node@20.14.14)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.14.13
+      '@types/node': 20.14.14
       jsdom: 24.1.1
     transitivePeerDependencies:
       - less
